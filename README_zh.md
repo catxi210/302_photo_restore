@@ -2,7 +2,7 @@
 
 <p align="center">AI老照片修复使用先进的AI模型对老照片进行修复，提供2倍、4倍、8倍的无损放大和增强、上色等功能，还可以生成视频，让老照片动起来。</p>
 
-<p align="center"><a href="https://302.ai/tools/word/" target="blank"><img src="https://file.302ai.cn/gpt/imgs/badge/21212.png" /></a></p >
+<p align="center"><a href="https://302.ai/tools/word/" target="blank"><img src="https://file.302ai.cn/gpt/imgs/github/302_badge.png" /></a></p >
 
 <p align="center"><a href="README zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
@@ -12,8 +12,11 @@
 
 
 ## 界面预览
+上传老照片后可选择图片放大、人物增强、黑白上色等修复功能。
+![pic-tool](docs/zh/老照片1.png)     
 
-![pic-tool](docs/zh/photo_restore.png)
+照片修复后还可拓展图片生成视频。
+![pic-tool](docs/zh/老照片2.png)
 
 ## 项目特性
 
