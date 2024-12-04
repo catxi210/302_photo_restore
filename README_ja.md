@@ -6,6 +6,7 @@
 
 <p align="center"><a href="README zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
+![pic-tool](docs/AI老照片修复jp.png)
 
 これは[302.AI](https://302.ai)の[AI古写真修復](https://302.ai/tools/restoration/)のオープンソース版です。302.AIに直接ログインし、コード不要でオンライン版を使用するか、自身のニーズに合わせて修正し、自らデプロイすることができます。
 
