@@ -2,9 +2,9 @@
 
 <p align="center">AI old photo restoration uses advanced AI models to restore old photos. It provides lossless enlargement functions such as 2x, 4x, and 8x, as well as enhancement and coloring functions. Moreover, it can also generate videos to bring old photos to life.</p>
 
-<p align="center"><a href="https://302.ai/tools/word/" target="blank"><img src="https://file.302ai.cn/gpt/imgs/github/302_badge.png" /></a></p >
+<p align="center"><a href="https://302.ai/en/tools/restoration/" target="blank"><img src="https://file.302ai.cn/gpt/imgs/github/302_badge.png" /></a></p >
 
-<p align="center"><a href="README zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
+<p align="center"><a href="README_zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
 ![pic-tool](docs/AI老照片修复en.png)      
 
