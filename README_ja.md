@@ -2,9 +2,9 @@
 
 <p align="center">AI による古い写真の修復は、先進的な AI モデルを利用して古い写真を修復します。2 倍、4 倍、8 倍のノンデストラクティブ拡大や、補強、着色などの機能を提供しており、またビデオを生成して古い写真を動かして見せることもできます。</p>
 
-<p align="center"><a href="https://302.ai/tools/word/" target="blank"><img src="https://file.302ai.cn/gpt/imgs/github/302_badge.png" /></a></p >
+<p align="center"><a href="https://302.ai/ja/tools/restoration/" target="blank"><img src="https://file.302ai.cn/gpt/imgs/github/302_badge.png" /></a></p >
 
-<p align="center"><a href="README zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
+<p align="center"><a href="README_zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
 ![pic-tool](docs/AI老照片修复jp.png)
 
