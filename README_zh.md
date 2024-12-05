@@ -1,8 +1,53 @@
-# 🎬🤖 欢迎来到302.AI 的 AI老照片修复! 🚀✨
+# <p align="center">🖼️ AI 老照片修复 🚀✨</p>
 
-[中文](README_zh.md) | [English](README.md) | [日本語](README_ja.md)
+<p align="center">AI老照片修复使用先进的AI模型对老照片进行修复，提供2倍、4倍、8倍的无损放大和增强、上色等功能，还可以生成视频，让老照片动起来。</p>
+
+<p align="center"><a href="https://302.ai/tools/restoration/" target="blank"><img src="https://file.302ai.cn/gpt/imgs/github/302_badge.png" /></a></p >
+
+<p align="center"><a href="README_zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
+
+![pic-tool](docs/AI老照片修复.png) 
 
 这是来自[302.AI](https://302.ai)的[AI老照片修复](https://302.ai/tools/restoration/)开源版本。你可以直接登录302.AI，零代码零基础使用在线版本，或根据自己的需求修改并自行部署。
+
+
+## 界面预览
+上传老照片后可选择图片放大、人物增强、黑白上色等修复功能。
+![pic-tool](docs/zh/老照片1.png)     
+
+照片修复后还可拓展图片生成视频。
+![pic-tool](docs/zh/老照片2.png)
+
+## 项目特性
+
+### 🎥 照片修复
+  支持图片放大、人物增强、黑白上色等修复功能，包括拓展图片生成视频。
+### 🔄 任务管理
+  任务支持重新生成。
+### ⚙️ 多模型支持
+  可选择各种模型生成老照片视频。
+### 📜 历史记录: 
+  保存您的创作历史,记忆不丢失，随时随地都可以下载。
+### 🌍 多语言支持
+  - 中文界面
+  - English Interface
+  - 日本語インターフェース
+
+## 🚩 未来更新计划
+- [ ] 特殊效果添加，除了现有的上色、放大等基本功能，可增加一些具有创意和历史还原价值的特殊效果
+- [ ] 多维度修复与调整，未来可以拓展到对照片中文字信息（如照片背后的手写备注、印章文字等）的识别与修复还原，以及对照片构图的合理调整（比如裁剪掉不必要的边缘部分、纠正倾斜等）
+
+## 技术栈
+- Next.js 14 基础框架
+
+## 开发&部署
+
+1. 克隆项目 `git clone git@github.com:302ai/302_photo_restore.git`
+2. 安装依赖 `pnpm install`
+3. 配置302的API KEY 参考.env.example
+4. 运行项目 `pnpm dev`
+5. 打包部署 `docker build -t photo-restore . && docker run -p 3000:3000 photo-restore`
+
 
 ## ✨ 302.AI介绍 ✨
 
@@ -14,27 +59,3 @@
 4. 🛠 功能强大的管理后台，面向团队和中小企业，一人管理，多人使用。
 5. 🔗 所有AI能力均提供API接入，所有工具开源可自行定制（进行中）。
 6. 💡 强大的开发团队，每周推出2-3个新应用，产品每日更新。有兴趣加入的开发者也欢迎联系我们。
-
-## 项目特性
-
-1. 🎥 **AI老照片修复**: 支持图片放大、人物增强、黑白上色等功能，包括拓展图片生成视频。
-2. 🔄 **任务管理**: 任务支持重新生成。
-3. ⚙️ **多模型支持**: 可选择各种模型生成视频。
-4. 📜 **历史记录**: 保存您的创作历史,记忆不丢失，随时随地都可以下载。
-5. 🌐 **国际化**: 支持多语言，目前支持中文、英文和日文。
-
-## 技术栈
-
-- Next.js 14 基础框架
-
-## 开发&部署
-
-1. 克隆项目 `git clone git@github.com:302ai/302_photo_restore.git`
-2. 安装依赖 `pnpm install`
-3. 配置302的API KEY 参考.env.example
-4. 运行项目 `pnpm dev`
-5. 打包部署 `docker build -t photo-restore . && docker run -p 3000:3000 photo-restore`
-
-## 界面预览
-
-![pic-tool](docs/zh/photo_restore.png)
